@@ -1,8 +1,9 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
   <title>лайфстайл</title>
+  <meta name="viewport" content="width=device-width">
   <link rel="stylesheet" href="/cyprus_life/css/bootstrap.min.css">
   <link rel="stylesheet" href="/cyprus_life/js/owl/owl.carousel.css">
   <link rel="stylesheet" href="/cyprus_life/js/aos/aos.css">
@@ -10,95 +11,135 @@
   <link rel="stylesheet" href="/cyprus_life/css/life.css">
   <script src="/cyprus_life/js/jquery.min.js"></script>
   <script src="/cyprus_life/js/owl/owl.carousel.min.js"></script>
+  <script src="/cyprus_life/js/owl/owl.carousel2.thumbs.min.js"></script>
   <script src="/cyprus_life/js/aos/aos.js"></script>
   <script src="/cyprus_life/js/script.js"></script>
 </head>
-<body class="partition-life">
+<body class="partition-life partition-life-main">
   <header class="l-header">
-  	<div class="container">
-  		<div class="row">
-  			<div class="col-sm-4">
-  				<div class="burger">
-  					<svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-							<path fill-rule="evenodd" clip-rule="evenodd" d="M14 12C14.552 12 15 12.448 15 13C15 13.552 14.552 14 14 14H2C1.448 14 1 13.552 1 13C1 12.448 1.448 12 2 12H14ZM14 7C14.552 7 15 7.448 15 8C15 8.552 14.552 9 14 9H2C1.448 9 1 8.552 1 8C1 7.448 1.448 7 2 7H14ZM14 2C14.552 2 15 2.448 15 3C15 3.552 14.552 4 14 4H2C1.448 4 1 3.552 1 3C1 2.448 1.448 2 2 2H14Z" fill="#333333"/>
-						</svg>
-  				</div>
-  				<div class="l-logo">
-  					<a href="/cyprus_life//"><img src="/cyprus_life/img/mini-logo.svg" alt=""></a>
-  				</div>
-  			</div>
-  			<div class="col-sm-4">
-  				<div class="partition-name">лайфстайл</div>
-  			</div>
-  			<div class="col-sm-4">
-  				<div class="l-search-block">
-  					<div class="lupa">
-  						<svg width="16" height="16" viewBox="0 0 16 16" fill="none" >
-								<path fill-rule="evenodd" clip-rule="evenodd" d="M9 13C12.3137 13 15 10.3137 15 7C15 3.68629 12.3137 1 9 1C5.68629 1 3 3.68629 3 7C3 10.3137 5.68629 13 9 13Z" stroke="black" stroke-width="2"/>
-								<path d="M4 12L1.5 14.5" stroke="black" stroke-width="2" stroke-linecap="square"/>
-							</svg>
-  					</div>
-  					<input type="text" placeholder="Искать по рубрике">
-  				</div>
-  			</div>
-  		</div>
-  	</div>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-2 col-sm-4">
+          <div class="burger">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M14 12C14.552 12 15 12.448 15 13C15 13.552 14.552 14 14 14H2C1.448 14 1 13.552 1 13C1 12.448 1.448 12 2 12H14ZM14 7C14.552 7 15 7.448 15 8C15 8.552 14.552 9 14 9H2C1.448 9 1 8.552 1 8C1 7.448 1.448 7 2 7H14ZM14 2C14.552 2 15 2.448 15 3C15 3.552 14.552 4 14 4H2C1.448 4 1 3.552 1 3C1 2.448 1.448 2 2 2H14Z" fill="white"/>
+            </svg>
+          </div>
+          <div class="l-logo">
+            <a href="/cyprus_life//"><img src="/cyprus_life/img/mini-logo.svg" alt=""></a>
+          </div>
+        </div>
+        <div class="col-xs-8 col-sm-4">
+          <div class="partition-name">лайфстайл</div>
+        </div>
+        <div class="col-xs-2 col-sm-4">
+          <div class="l-search-block">
+            <div class="lupa">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" >
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M9 13C12.3137 13 15 10.3137 15 7C15 3.68629 12.3137 1 9 1C5.68629 1 3 3.68629 3 7C3 10.3137 5.68629 13 9 13Z" stroke="black" stroke-width="2"/>
+                <path d="M4 12L1.5 14.5" stroke="black" stroke-width="2" stroke-linecap="square"/>
+              </svg>
+            </div>
+            <input type="text" placeholder="Искать по рубрике">
+            <span class="close-search">
+              <svg width="24" height="24" viewBox="0 0 24 24">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M12 13.4546L5.45455 20L4 18.5455L10.5455 12L4 5.45456L5.45455 4.00001L12 10.5455L18.5455 4L20 5.45455L13.4545 12L20 18.5455L18.5455 20L12 13.4546Z"></path>
+              </svg>
+            </span>
+          </div>
+          <div class="lupa open-search">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" >
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M9 13C12.3137 13 15 10.3137 15 7C15 3.68629 12.3137 1 9 1C5.68629 1 3 3.68629 3 7C3 10.3137 5.68629 13 9 13Z" stroke="black" stroke-width="2"/>
+              <path d="M4 12L1.5 14.5" stroke="black" stroke-width="2" stroke-linecap="square"/>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
   </header>
   <div class="l-top-menu">
     <div class="container">
       <div class="row row-10">
         <div class="col col-md-3">
+                 
         </div>
         <div class="col col-md-6">
-          <ul>
-            <li><a href="/cyprus_life/">Лайфхаки</a></li>
-            <li><a href="/cyprus_life/">Кино</a></li>
-            <li><a href="/cyprus_life/">Психология</a></li>
-            <li><a href="/cyprus_life/">Мода</a></li>
-            <li><a href="/cyprus_life/">Садоводство</a></li>
-            <li><a href="/cyprus_life/">Еда</a></li>
-            <li><a href="/cyprus_life/">#нольотходов</a></li>
-          </ul>
+          <div class="l-menu">
+            <div class="mobile-header">
+              <div class="close-burger">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M8.19125 6.66325L12.5312 2.32325C12.9622 1.89225 13.6623 1.89225 14.0933 2.32325C14.5243 2.75425 14.5243 3.45425 14.0933 3.88525L9.75325 8.22525L14.0933 12.5653C14.5153 12.9863 14.5153 13.6713 14.0933 14.0933C13.6713 14.5153 12.9863 14.5153 12.5653 14.0933L8.22525 9.75325L3.88525 14.0933C3.45425 14.5243 2.75425 14.5243 2.32325 14.0933C1.89225 13.6623 1.89225 12.9622 2.32325 12.5312L6.66325 8.19125L2.32325 3.85125C1.90125 3.43025 1.90125 2.74525 2.32325 2.32325C2.74525 1.90125 3.43025 1.90125 3.85125 2.32325L8.19125 6.66325V6.66325Z" fill="white"/>
+                </svg>
+              </div>
+              <div class="partition-name">лайфстайл</div>
+            </div>
+            <ul>
+              <li><a href="/cyprus_life/">Лайфхаки</a></li>
+              <li class="active"><a href="/cyprus_life/">Кино</a></li>
+              <li><a href="/cyprus_life/">Психология</a></li>
+              <li><a href="/cyprus_life/">Мода</a></li>
+              <li><a href="/cyprus_life/">Садоводство</a></li>
+              <li><a href="/cyprus_life/">Еда</a></li>
+              <li><a href="/cyprus_life/">#нольотходов</a></li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
   </div>
   <div class="hit-topic-block">
-    <div class="container">
-      <div class="decor decor-1"></div>
-      <div class="decor decor-2"></div>
-      <div class="hit-topic">
-        <div class="photo"><img src="/cyprus_life/img/photo1.png" alt=""></div>
-        <div class="info">
-          <div class="l-rubric">лайфак <span>| 74</span></div>
-          <div class="title"><a href="/cyprus_life/#">Мобильная  связь и интернет на Кипре</a></div>
-          <div class="descr">Местрые нюансы мобильной  связи на кипре</div>
+    
+    <div class="hit-main-carousel owl-carousel" data-slider-id="hit_main">
+      <div class="container">
+        <div class="decor decor-1"></div>
+        <div class="decor decor-2"></div>
+        <div class="hit-topic">
+          <div class="photo"><img src="/cyprus_life/img/photo1.png" alt=""></div>
+          <div class="info">
+            <div class="l-rubric">лайфак <span>| 74</span></div>
+            <div class="title"><a href="/cyprus_life/#">Мобильная  связь и интернет на Кипре</a></div>
+            <div class="descr">Местрые нюансы мобильной  связи на кипре</div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="decor decor-1"></div>
+        <div class="decor decor-2"></div>
+        <div class="hit-topic">
+          <div class="photo"><img src="/cyprus_life/img/photo7.png" alt=""></div>
+          <div class="info">
+            <div class="l-rubric">мода <span>| 74</span></div>
+            <div class="title"><a href="/cyprus_life/#">Вода и электричество на Кипре. Как экономить</a></div>
+            <div class="descr">Местрые нюансы мобильной  связи на кипре</div>
+          </div>
         </div>
       </div>
     </div>
+    
     <div class="hit-topic-nav">
-      <div class="hit-topic-container">
-      <div class="hit-topic-item active">
-        <div class="photo"><img src="/cyprus_life/img/photo1.png" alt=""></div>
-        <div class="info">
-          <div class="l-rubric">лайфак <span>| 74</span></div>
-          <div class="title">Мобильная  связь и интернет на Кипре</div>
-          <div class="descr">Местрые нюансы мобильной  связи на кипре</div>
+      <div class="hit-topic-container" data-slider-id="hit_main">
+        <div class="hit-topic-item active">
+          <div class="photo"><img src="/cyprus_life/img/photo1.png" alt=""></div>
+          <div class="info">
+            <div class="l-rubric">лайфак <span>| 74</span></div>
+            <div class="title">Мобильная  связь и интернет на Кипре</div>
+            <div class="descr">Местрые нюансы мобильной  связи на кипре</div>
+          </div>
         </div>
-      </div>
-      <div class="hit-topic-item">
-        <div class="photo"><img src="/cyprus_life/img/photo7.png" alt=""></div>
-        <div class="info">
-          <div class="l-rubric">мода <span>| 12</span></div>
-          <div class="title">Вода и электричество на Кипре. Как экономить</div>
-          <div class="descr">Местрые нюансы мобильной  связи на кипре</div>
+        <div class="hit-topic-item">
+          <div class="photo"><img src="/cyprus_life/img/photo7.png" alt=""></div>
+          <div class="info">
+            <div class="l-rubric">мода <span>| 12</span></div>
+            <div class="title">Вода и электричество на Кипре. Как экономить</div>
+            <div class="descr">Местрые нюансы мобильной  связи на кипре</div>
+          </div>
         </div>
-      </div>
       </div>
     </div>
   </div>
-  <div class="topic-views fresh-topics" data-aos="fade-up" data-aos-duration="800">
+  <div class="topic-views fresh-topics bordered" data-aos="fade-up" data-aos-duration="800">
     <div class="container">
+      <h2 class="color-title visible-xs"><span>СВЕЖИЕ</span> статьи</h2>
       <div class="row row-10">
         <div class="col col-sm-6">
           <div class="topic-item topic-item-trailer">
@@ -121,9 +162,9 @@
           </div>
         </div>
         <div class="col col-sm-6">
-          <h2 class="color-title"><span>СВЕЖИЕ</span> статьи</h2>
+          <h2 class="color-title hidden-xs"><span>СВЕЖИЕ</span> статьи</h2>
           <div class="row row-10 latest-articles">
-            <div class="col col-md-6">
+            <div class="col col-xs-6">
               <div class="topic-item topic-item-usial">
                 <div class="photo">
                   <img src="/cyprus_life/img/photo3.png" alt="">
@@ -134,7 +175,7 @@
                 </div>
               </div>
             </div>
-            <div class="col col-md-6">
+            <div class="col col-xs-6">
               <div class="topic-item topic-item-usial">
                 <div class="photo">
                   <img src="/cyprus_life/img/photo3.png" alt="">
@@ -145,7 +186,7 @@
                 </div>
               </div>
             </div>
-            <div class="col col-md-6">
+            <div class="col col-xs-6">
               <div class="topic-item topic-item-usial">
                 <div class="photo">
                   <img src="/cyprus_life/img/photo3.png" alt="">
@@ -156,7 +197,7 @@
                 </div>
               </div>
             </div>
-            <div class="col col-md-6">
+            <div class="col col-xs-6">
               <div class="topic-item topic-item-usial">
                 <div class="photo">
                   <img src="/cyprus_life/img/photo3.png" alt="">
@@ -172,7 +213,7 @@
       </div>
     </div>
   </div>
-  <div class="popular-topics" data-aos="fade-up" data-aos-duration="800">
+  <div class="popular-topics bordered" data-aos="fade-up" data-aos-duration="800">
     <div class="container">
       <h2 class="color-title"><span>Популярные</span> статьи</h2>
       <div class="row row-10">
@@ -286,31 +327,37 @@
       </div>
     </div>
   </div>
-  <div class="best-topics" data-aos="fade-up"  data-aos-duration="800">
+  <div class="best-topics bordered" data-aos="fade-up"  data-aos-duration="800">
     <div class="container">
       <h2 class="color-title"><span>ЛУЧШИЕ</span> РЕЦЕПТЫ</h2>
       <div class="row row-10">
-        <div class="col col-sm-6 col-md-4">
-          <div class="topic-item topic-item-usial">
-            <div class="photo">
-              <img src="/cyprus_life/img/photo4.png" alt="">
+        <div class="col col-sm-4 col-md-4">
+          <div class="row row-10">
+            <div class="col col-xs-6 col-sm-12">
+              <div class="topic-item topic-item-usial">
+                <div class="photo">
+                  <img src="/cyprus_life/img/photo4.png" alt="">
+                </div>
+                <div class="info">
+                  <div class="l-rubric">мода <span>| 12</span></div>
+                  <div class="title">Удивительное путешествие доктора Дулиттла</div>
+                </div>
+              </div>
             </div>
-            <div class="info">
-              <div class="l-rubric">мода <span>| 12</span></div>
-              <div class="title">Удивительное путешествие доктора Дулиттла</div>                  
-            </div>
-          </div>
-          <div class="topic-item topic-item-usial">
-            <div class="photo">
-              <img src="/cyprus_life/img/photo4.png" alt="">
-            </div>
-            <div class="info">
-              <div class="l-rubric">мода <span>| 12</span></div>
-              <div class="title">Удивительное путешествие доктора Дулиттла</div>                  
+            <div class="col col-xs-6 col-sm-12">
+              <div class="topic-item topic-item-usial">
+                <div class="photo">
+                  <img src="/cyprus_life/img/photo4.png" alt="">
+                </div>
+                <div class="info">
+                  <div class="l-rubric">мода <span>| 12</span></div>
+                  <div class="title">Удивительное путешествие доктора Дулиттла</div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-        <div class="col col-sm-6 col-md-8">
+        <div class="col col-sm-8 col-md-8">
           <div class="topic-item topic-item-trailer">
             <div class="photo">
               <img src="/cyprus_life/img/photo7.png" alt="">
@@ -325,7 +372,7 @@
       </div>
     </div>
   </div>
-  <div class="zerowaste-topics" data-aos="fade-up" data-aos-duration="800">
+  <div class="zerowaste-topics bordered" data-aos="fade-up" data-aos-duration="800">
     <div class="container">
       <h2 class="color-title"><span>#</span>НОЛЬОТХОДОВ</h2>
       <div class="topics-carousel owl-carousel owl-nav-theme">
@@ -365,13 +412,14 @@
               <div class="title">Удивительное путешествие доктора Дулиттла</div>
             </div>
           </div>
+        </div>
     </div>
   </div>
-  <div class="psychology-topics" data-aos="fade-up"  data-aos-duration="800">
+  <div class="psychology-topics bordered" data-aos="fade-up"  data-aos-duration="800">
     <div class="container">
       <h2 class="color-title">ПСИХОЛОГИЯ</h2>
-      <div class="row row-10">
-        <div class="col col-sm-6 col-md-4">
+      <div class="topics3-carousel owl-carousel owl-nav-theme">
+        
           <div class="topic-item topic-item-usial">
             <div class="photo">
               <img src="/cyprus_life/img/photo8.png" alt="">
@@ -381,8 +429,7 @@
               <div class="title">Самоизоляция.  Как не буить друг друга</div>                  
             </div>
           </div>
-        </div>
-        <div class="col col-sm-6 col-md-4">
+        
           <div class="topic-item topic-item-usial">
             <div class="photo">
               <img src="/cyprus_life/img/photo4.png" alt="">
@@ -392,8 +439,7 @@
               <div class="title">Удивительное путешествие доктора Дулиттла</div>                  
             </div>
           </div>
-        </div>
-        <div class="col col-sm-6 col-md-4">
+        
           <div class="topic-item topic-item-usial">
             <div class="photo">
               <img src="/cyprus_life/img/photo4.png" alt="">
@@ -403,7 +449,7 @@
               <div class="title">Удивительное путешествие доктора Дулиттла</div>                  
             </div>
           </div>
-        </div>        
+              
       </div>
     </div>
   </div>
@@ -411,21 +457,16 @@
     <div class="top-footer">
     <div class="container ">
       <div class="row">
-        <div class="col-sm-4">
-          <div class="burger">
-            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-              <path fill-rule="evenodd" clip-rule="evenodd" d="M14 12C14.552 12 15 12.448 15 13C15 13.552 14.552 14 14 14H2C1.448 14 1 13.552 1 13C1 12.448 1.448 12 2 12H14ZM14 7C14.552 7 15 7.448 15 8C15 8.552 14.552 9 14 9H2C1.448 9 1 8.552 1 8C1 7.448 1.448 7 2 7H14ZM14 2C14.552 2 15 2.448 15 3C15 3.552 14.552 4 14 4H2C1.448 4 1 3.552 1 3C1 2.448 1.448 2 2 2H14Z" fill="#333333"/>
-            </svg>
-          </div>
+        <div class="col-xs-2 col-sm-4">
           <div class="l-logo">
             <a href="/cyprus_life//"><img src="/cyprus_life/img/mini-logo.svg" alt=""></a>
           </div>
         </div>
-        <div class="col-sm-4">
+        <div class="col-xs-8 col-sm-4">
           <div class="partition-name">лайфстайл</div>
         </div>
-        <div class="col-sm-4">
-          <div class="l-search-block">
+        <div class="col-xs-2 col-sm-4">
+          <div class="l-search-block hidden-xs">
             <div class="lupa">
               <svg width="16" height="16" viewBox="0 0 16 16" fill="none" >
                 <path fill-rule="evenodd" clip-rule="evenodd" d="M9 13C12.3137 13 15 10.3137 15 7C15 3.68629 12.3137 1 9 1C5.68629 1 3 3.68629 3 7C3 10.3137 5.68629 13 9 13Z" stroke="black" stroke-width="2"/>

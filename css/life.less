@@ -170,10 +170,13 @@
 		}			
 	}
 	& .close-search{
-		display: inline-block;
+		display: none;
 		vertical-align: middle;
 		height: 20px;
 		float: right;
+		@media @mobile{
+			display: inline-block;
+		}
 	}
 	& .lupa{
 		height: 16px;
@@ -196,7 +199,10 @@
 	border-bottom: 1px solid black;
 	.partition-life-main &{
 		@media @mobile{
-			display: none;
+			border-bottom: none;
+			& .col{
+				min-height: 0;
+			}
 		}
 	}
 	.l-menu{
@@ -1568,4 +1574,10 @@
 			}	
 		}
 	}
+}
+.slick-slide {
+  margin: 0 20px;
+}
+.slick-list {
+  margin: 0 -20px;
 }

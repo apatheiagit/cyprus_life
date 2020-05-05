@@ -427,10 +427,16 @@
 }
 .l-header .close-search,
 .top-footer .close-search {
-  display: inline-block;
+  display: none;
   vertical-align: middle;
   height: 20px;
   float: right;
+}
+@media (max-width: 767px) {
+  .l-header .close-search,
+  .top-footer .close-search {
+    display: inline-block;
+  }
 }
 .l-header .lupa,
 .top-footer .lupa {
@@ -458,7 +464,10 @@
 }
 @media (max-width: 767px) {
   .partition-life-main .l-top-menu {
-    display: none;
+    border-bottom: none;
+  }
+  .partition-life-main .l-top-menu .col {
+    min-height: 0;
   }
 }
 @media (max-width: 767px) {
@@ -2261,4 +2270,10 @@
     width: 32px;
     padding-top: 8px;
   }
+}
+.slick-slide {
+  margin: 0 20px;
+}
+.slick-list {
+  margin: 0 -20px;
 }
