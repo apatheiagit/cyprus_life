@@ -95,6 +95,13 @@ $(function(){
     }
 	});
 
+	var hit_big_height = $('.hit-topic-big .photo-big').height();
+	var hit_big_width= $('.hit-topic-big .photo-big').width();
+	$('.hit-topic-big').css({'width': hit_big_width + 'px', 'height': hit_big_height + 'px'});
+	var hit_small_height = $('.hit-topic-small .photo-small').height();
+	var hit_small_width= $('.hit-topic-small .photo-small').width();
+	$('.hit-topic-small').css({'width': hit_small_width + 'px', 'height': hit_small_height + 'px'});
+
 	$('.hit-topic-small').on('click', function(){
 		var hit_small = $(this).html();
 		$(this).addClass('active').children().css('opacity', 0.7);

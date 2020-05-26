@@ -243,10 +243,10 @@
   background-color: #7C97A7;
 }
 .partition-life-cinema .l-header {
-  border-color: #89A6B7;
+  border-color: #AECFE1;
 }
 .partition-life-cinema .l-top-menu ul li.active:after {
-  background-color: #89A6B7;
+  background-color: #AECFE1;
 }
 @media (max-width: 767px) {
   .partition-life-cinema .l-top-menu ul li.active:after {
@@ -260,7 +260,7 @@
 }
 .partition-life-cinema .hit-topic-big .l-rubric {
   color: #7C97A7;
-  background-color: #CDDBE2;
+  background-color: #AECFE1;
 }
 .partition-life-cinema .hit-topic-big .descr {
   color: white;
@@ -270,7 +270,7 @@
 }
 .partition-life-cinema .author:after,
 .partition-life-cinema .author:before {
-  background-color: #89A6B7;
+  background-color: #AECFE1;
 }
 /* /blue-grey */
 .l-header,
@@ -1458,8 +1458,8 @@
   margin: 20px 0;
 }
 .bordered-container {
-  border-top: 1px solid #89A6B7;
-  border-bottom: 1px solid #89A6B7;
+  border-top: 1px solid #AECFE1;
+  border-bottom: 1px solid #AECFE1;
 }
 .special-mark {
   font-weight: 500;
@@ -1681,7 +1681,7 @@
 .decor.decor-9 {
   width: 675px;
   height: 675px;
-  background-color: #89A6B7;
+  background-color: #AECFE1;
   top: auto;
   left: -150px;
   right: auto;
@@ -1692,7 +1692,7 @@
   .decor.decor-9 {
     width: 275px;
     height: 275px;
-    background-color: #89A6B7;
+    background-color: #AECFE1;
     top: auto;
     left: -50px;
     right: auto;
@@ -1703,7 +1703,7 @@
   .decor.decor-9 {
     width: 275px;
     height: 275px;
-    background-color: #89A6B7;
+    background-color: #AECFE1;
     top: auto;
     left: -50px;
     right: auto;
@@ -1714,7 +1714,7 @@
   .decor.decor-9 {
     width: 255px;
     height: 255px;
-    background-color: #89A6B7;
+    background-color: #AECFE1;
     top: auto;
     left: -30px;
     right: auto;
@@ -1724,7 +1724,7 @@
 .decor.decor-10 {
   width: 295px;
   height: 295px;
-  background-color: #CDDBE2;
+  background-color: #AECFE1;
   top: -147px;
   left: auto;
   right: -147px;
@@ -1734,7 +1734,7 @@
   .decor.decor-10 {
     width: 145px;
     height: 145px;
-    background-color: #89A6B7;
+    background-color: #AECFE1;
     top: -77px;
     left: auto;
     right: -77px;
@@ -1744,7 +1744,7 @@
   .decor.decor-10 {
     width: 145px;
     height: 145px;
-    background-color: #89A6B7;
+    background-color: #AECFE1;
     top: -77px;
     left: auto;
     right: -77px;
@@ -1882,7 +1882,7 @@
     text-align: center;
     margin-top: 16px;
     padding-top: 16px;
-    border-top: 1px solid #89A6B7;
+    border-top: 1px solid #AECFE1;
   }
 }
 .l-footer-menu {
@@ -2136,7 +2136,8 @@
     line-height: 74px;
   }
 }
-.partition-detail .announce-text {
+.partition-detail .announce-text,
+.partition-detail .introduction {
   font-family: 'Ikra Slab';
   font-weight: normal;
   font-size: 22px;
@@ -2144,7 +2145,8 @@
   margin: 24px 0;
 }
 @media (max-width: 992px) {
-  .partition-detail .announce-text {
+  .partition-detail .announce-text,
+  .partition-detail .introduction {
     font-size: 17px;
     line-height: 24px;
     margin: 12px 0;
@@ -2184,7 +2186,7 @@
   line-height: 18px;
   padding: 16px 0;
   margin-bottom: 32px;
-  border-bottom: 1px solid #89A6B7;
+  border-bottom: 1px solid #AECFE1;
 }
 .partition-detail .author {
   margin: 32px 0;
@@ -2243,7 +2245,7 @@
   }
 }
 .partition-detail .share-block {
-  border-top: 1px solid #89A6B7;
+  border-top: 1px solid #AECFE1;
   padding-top: 44px;
   margin: 32px 0;
 }
@@ -2256,7 +2258,7 @@
   height: 44px;
   width: 44px;
   padding-top: 14px;
-  background-color: #89A6B7;
+  background-color: #AECFE1;
   display: inline-block;
   text-align: center;
   margin-right: 8px;
